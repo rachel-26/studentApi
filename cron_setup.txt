@@ -1,0 +1,5 @@
+
+# m h  dom mon dow   command
+0 */6 * * * /home/ubuntu/health_check.sh
+0 2 * * * /home/ubuntu/backup_api.sh
+0 3 */3 * * /home/ubuntu/update_server.sh
