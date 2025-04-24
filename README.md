@@ -71,3 +71,7 @@ Requires regular full backups
    git clone https://github.com/rachel-26/studentApi
    cd student-api# studentApi
 
+## Docker Setup
+### Build
+```bash
+docker build -t student-api:latest .
