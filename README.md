@@ -75,3 +75,4 @@ Requires regular full backups
 ### Build
 ```bash
 docker build -t student-api:latest .
+https://hub.docker.com/r/devrachel/student-api.
