@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS          PORTS                              NAMES
+881b7f3cd327   student_api-api   "java -jar app.jar"      39 minutes ago   Up 39 minutes   8083/tcp, 0.0.0.0:8084->8084/tcp   student_api-api-1
+1703f3608209   postgres:14       "docker-entrypoint.s…"   39 minutes ago   Up 39 minutes   0.0.0.0:5432->5432/tcp             student_api-db-1
+c9e839d1e42a   postgres:latest   "docker-entrypoint.s…"   8 months ago     Up 6 hours      0.0.0.0:5435->5432/tcp             testdb

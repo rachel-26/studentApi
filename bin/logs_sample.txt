@@ -1,0 +1,14 @@
+Sample logs from server_health.log:
+[2025-04-21 01:20:14] WARNING: /students endpoint failed (Status: 404)
+[2025-04-21 01:20:14] WARNING: /subjects endpoint failed (Status: 404)
+
+[2025-04-22 17:17:36] /students endpoint is up (200 OK)
+[2025-04-22 17:17:36] /subjects endpoint is up (200 OK)
+
+Sample logs from backup.log:
+[2025-04-21 01:05:07] ERROR: API backup failed
+[2025-04-21 01:20:41] ERROR: API backup failed
+
+Sample logs from update.log:
+[2025-04-21 01:20:56] Maven build successful
+[2025-04-21 01:20:56] API service restarted
